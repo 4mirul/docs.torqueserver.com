@@ -1,3 +1,7 @@
-site_name: My Docs
+site_name: Torqueserver docs
+site_url: https://docs.torqueserver.com
 theme:
   name: material
+nav:
+  - Home: index.md
+  - About: about.md
