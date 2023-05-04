@@ -1,7 +1,94 @@
-site_name: Torqueserver docs
+site_name: Torqueserver Docs
 site_url: https://docs.torqueserver.com
-theme:
-  name: material
+repo_name: 4mirul/docs.torqueserver.com
+repo_url: https://github.com/4mirul/docs.torqueserver.com
 nav:
   - Home: index.md
   - About: about.md
+  - Comptia A+ Notes: comptia-aplus.md
+  - Proxmox VE Notes: proxmox-ve.md
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+      # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Open Sans
+  language: en
+  logo: assets/tor.png
+  favicon: images/tor.png
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
+extra:
+  alternate:
+    - name: English
+      # link: /en/
+      lang: en
+    - name: Bahasa Malaysia
+      # link: /ms/
+      lang: ms
+  homepage: https://docs.torqueserver.com
+  # consent:
+  #   title: Cookie consent
+  #   description: >-
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+  #   cookies:
+  #     analytics:
+  #       name: Google Analytics
+  #       checked: false
+  #   actions:
+  #     - accept
+  #     - reject
+  #     - manage
+copyright: >
+  Copyright &copy; 2023 Muhammad Amirul
