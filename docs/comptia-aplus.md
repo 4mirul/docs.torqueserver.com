@@ -146,30 +146,6 @@ New connectors;
 
 ###
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--
 ## cooling pc - not complete
 
