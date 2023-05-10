@@ -1,5 +1,7 @@
 # CompTIA A+ Notes
 
+[![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/new-comptia-a-2019-certification-1001-the-total-course/)
+
 ## Safety and Professionalism
 
 ### :material-tools: Tools of the trade

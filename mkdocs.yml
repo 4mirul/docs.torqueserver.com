@@ -1,4 +1,4 @@
-site_name: Torqueserver Docs
+site_name: Torqueserver Documents
 site_url: https://docs.torqueserver.com
 repo_name: 4mirul/docs.torqueserver.com
 repo_url: https://github.com/4mirul/docs.torqueserver.com
@@ -7,10 +7,11 @@ nav:
   - About: about.md
   - Comptia A+ Notes: comptia-aplus.md
   - Proxmox VE Notes: proxmox-ve.md
+  - French Language Notes: french-language-notes.md
 theme:
   name: material
   palette:
-    - scheme: default
+    - scheme: slate
       primary: black
       accent: grey
       toggle:
@@ -18,7 +19,7 @@ theme:
         name: Switch to dark mode
 
       # Palette toggle for dark mode
-    - scheme: slate
+    - scheme: default
       primary: black
       accent: grey
       toggle:
