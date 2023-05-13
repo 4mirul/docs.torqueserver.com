@@ -1,9 +1,26 @@
-# French Language Notes
+# Notes de langue française `French Language Notes`
 
-[![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/complete-french-course)
+[![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/complete-french-course) [![Material for mkdocs](https://img.shields.io/badge/Material_for_mkdocs-indigo?style=for-the-badge&logo=readthedocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ```.txt
-Keyboard Shortcuts Cheat Sheet
+Windows Keyboard Shortcuts Cheat Sheet
+
+Uppercase:
+
+À: Alt+0192
+Â: Alt+0194
+Ç: Alt+128
+É: Alt+144
+È: Alt+0200
+Ê: Alt+0202
+Ë: Alt+0203
+Î: Alt+0206
+Ï: Alt+0207
+Ô: Alt+0212
+Ù: Alt+0217
+Û: Alt+0219
+Ü: Alt+154
+Œ (ligature): Alt+0140
 
 Lowercase:
 
@@ -21,22 +38,48 @@ Lowercase:
 û: Alt+150
 ü: Alt+129
 œ (ligature): Alt+0156
+
+```
+
+```.txt
+Linux Keyboard Shortcuts Cheat sheet
+
 Uppercase:
 
-À: Alt+0192
-Â: Alt+0194
-Ç: Alt+128
-É: Alt+144
-È: Alt+0200
-Ê: Alt+0202
-Ë: Alt+0203
-Î: Alt+0206
-Ï: Alt+0207
-Ô: Alt+0212
-Ù: Alt+0217
-Û: Alt+0219
-Ü: Alt+154
-Œ (ligature): Alt+0140
+É (E with acute accent): Ctrl + Shift + U, then 00C9
+È (E with grave accent): Ctrl + Shift + U, then 00C8
+Ê (E with circumflex accent): Ctrl + Shift + U, then 00CA
+Ë (E with diaeresis/umlaut): Ctrl + Shift + U, then 00CB
+À (A with grave accent): Ctrl + Shift + U, then 00C0
+Â (A with circumflex accent): Ctrl + Shift + U, then 00C2
+Ô (O with circumflex accent): Ctrl + Shift + U, then 00D4
+Î (I with circumflex accent): Ctrl + Shift + U, then 00CE
+Û (U with circumflex accent): Ctrl + Shift + U, then 00DB
+Ç (C with cedilla): Ctrl + Shift + U, then 00C7
+Ï (I with diaeresis/umlaut): Ctrl + Shift + U, then 00CF
+Œ (Ligature OE): Ctrl + Shift + U, then 0152
+Æ (Ligature AE): Ctrl + Shift + U, then 00C6
+Ù (U with grave accent): Ctrl + Shift + U, then 00D9
+Ÿ (Y with diaeresis/umlaut): Ctrl + Shift + U, then 0178
+
+Lowercase:
+
+é (e with acute accent): Ctrl + Shift + U, then 00E9
+è (e with grave accent): Ctrl + Shift + U, then 00E8
+ê (e with circumflex accent): Ctrl + Shift + U, then 00EA
+ë (e with diaeresis/umlaut): Ctrl + Shift + U, then 00EB
+à (a with grave accent): Ctrl + Shift + U, then 00E0
+â (a with circumflex accent): Ctrl + Shift + U, then 00E2
+ô (o with circumflex accent): Ctrl + Shift + U, then 00F4
+î (i with circumflex accent): Ctrl + Shift + U, then 00EE
+û (u with circumflex accent): Ctrl + Shift + U, then 00FB
+ç (c with cedilla): Ctrl + Shift + U, then 00E7
+ï (i with diaeresis/umlaut): Ctrl + Shift + U, then 00EF
+œ (ligature oe): Ctrl + Shift + U, then 0153
+æ (ligature ae): Ctrl + Shift + U, then 00E6
+ù (u with grave accent): Ctrl + Shift + U, then 00F9
+ÿ (y with diaeresis/umlaut): Ctrl + Shift + U, then 00FF
+
 ```
 
 ## Salutations `Greetings`
@@ -81,6 +124,7 @@ Uppercase:
 - Navré(e) `I'm sorry`
 - Mes excuses `My apologies`
 - Puis-je avoir..? `Can I have..?`
+- J'aimerais.. `I would like..`
 - Je vous en prie `You're welcome (formal)`
 - Parlez-vous anglais? `Do you speak english?`
 - Je ne comprends pas `I don't understand`
@@ -195,12 +239,273 @@ Uppercase:
 - Un milliard `1,000,000,000`
 - Deux milliards `2,000,000,000`
 
+## Couleurs `Colors`
+
+- Bleu(e) `Blue`
+- Rouge `Red`
+- Jaune `Yellow`
+- Vert(e) `Green`
+- Marron `Brown`
+- Violet(te) `Purple`
+- Rose `Pink`
+- Orange `Orange`
+- Noir(e) `Black`
+- Blanc(he) `White`
+- Gris(e) `Gray`
+- Turquoise `Turquoise`
+- Argent `Silver`
+- Or `Gold`
+- Beige `Beige`
+- Indigo `Indigo`
+- Caramel `Caramel`
+- Olive `Olive`
+- Émeraude `Emerald`
+- Sable `Sand`
+- Fuchsia `Fuchsia`
+- Bordeaux `Burgundy`
+- Bronze `Bronze`
+- Corail `Coral`
+- Citron `Lemon`
+
+## La nourriture `Food`
+
+- Le pain `Bread`
+- Du riz `Rice`
+- Un oœf `Egg`
+- La viande `Meat`
+- Du porc `Pork`
+- Du poulet `Chicken`
+- Du boeuf `Beef`
+- Du poisson `Fish`
+- Des légumes `Vegetables`
+- La laitue `Lettuce`
+- Un oignon `Onion`
+- De l'ail `Garlic`
+- Un poivron `Bell pepper`
+- Une carotte `Carrot`
+- Une tomate `Tomato`
+- Les fruits `Fruits`
+- Une pomme `Apple`
+- Une banane `Banana`
+- Un ananas `Pineapple`
+- Une fraise `Strawberry`
+- Des raisins `Grapes`
+- La boisson `Drink`
+- Le lait `Milk`
+- Du thé `Tea`
+- Du sucre `Sugar`
+- Sel `Salt`
+- Du miel `Honey`
+- Fromage `Cheese`
+- Jambon `Ham`
+- Pâtes `Pasta`
+- Yaourt `Yogurt`
+- Beurre `Butter`
+- Pomme de terre `Potato`
+- Salade `Salad`
+- Pain de mie `Sliced bread`
+- Croissant `Croissant`
+- Baguette `French baguette`
+- Crêpe `Pancake`
+- Gâteau `Cake`
+- Des féculents `Starchy food`
+- Des protéines `Proteins`
+- De l'édulcorant `Sweetener`
+
+## L'alphabet `The alphabet`
+
+- a `a`
+- be `b`
+- se `c`
+- de `d`
+- ə `e`
+- ɛf `f`
+- ʒe `g`
+- aʃ `h`
+- i `i`
+- ʒi `j`
+- ka `k`
+- ɛl `l`
+- ɛm `m`
+- ɛn `n`
+- o `o`
+- pe `p`
+- ky `q`
+- ɛr `r`
+- ɛs `s`
+- te `t`
+- y `u`
+- ve `v`
+- dubləve `w`
+- iks `x`
+- igʁɛk `y`
+- zɛd `z`
+
+## Les animaux `Animals`
+
+- Un chat `Cat`
+- Un chien `Dog`
+- Un oiseau `Bird`
+- Un éléphant `Elephant`
+- Un lion `Lion`
+- Un ours `Bear`
+- Un cheval `Horse`
+- Un tigre `Tiger`
+- Un taureau `Bull`
+- Une tortue `Tortoise/Turtle`
+- Un cochon `Pig`
+- Une vache `Cow`
+- Un mouton `Sheep`
+- Un canard `Duck`
+- Lapin `Rabbit`
+- Girafe `Giraffe`
+- Singe `Monkey`
+- Poule `Chicken`
+- Renard `Fox`
+- Loup `Wolf`
+- Serpent `Snake`
+- Requin `Shark`
+
+## Prépositions `Prepositions`
+
+- À `To/at/in`
+- De `Of/from`
+- Avec `With`
+- Pour `For`
+- Dans `In/inside`
+- Sur `On,upon`
+- Sous `Under/beneath`
+- Devant `In front of`
+- Derrière `Behind`
+- Entre `Between`
+- Parmi `Among`
+- Autour de `Around`
+- Près de `Near/close to`
+- Chez `At/to the house/place of`
+- Vers `Towards`
+- Malgré `Despite/in spite of`
+- Depuis `Since/from`
+- Jusqu'à `Until/up to`
+- À travers `Through/across`
+- En face de `In front of/opposite`
+
+## Articles indéfinis `Indefinite articles`
+
+- Un `A (masculine)`
+- Une `A (feminine)`
+- Des `Some (plural)`
+
+## Verbs `Verbs`
+
+- Aimer `To love / to like`
+- Aller `To go`
+- Être `To be`
+- Avoir `To have`
+- Apprendre `To learn`
+- Arriver `To arrive`
+- Boire `To drink`
+- Chanter `To sing`
+- Danser `To dance`
+- Dire `To say / to tell`
+- Écouter `To listen`
+- Étudier `To study`
+- Faire `To do / to make`
+- Manger `To eat`
+- Parler `To talk/speak`
+- Penser `To think`
+- Prendre `To take`
+- Regarder `To watch / to look at`
+- Rester `To stay / to remain`
+- Savoir `To know(facts/information)`
+- Voir `To see`
+- Voyager `To travel`
+- Courir `To run`
+- Marcher `To walk`
+- Sauter `To jump`
+- Vite `Fast`
+- Lentement `Slowly`
+- Ralentir `To slow down`
+- Accélérer `To speed up`
+- Nager `To swim`
+- Voler `To fly`
+- Dormir `To sleep`
+- Rire `To laugh`
+- Pleurer `To cry`
+- Crier `To shout / to scream`
+- Travailler `To work`
+- Jouer `To play`
+- Écrire `To write`
+- Lire `To read`
+- Dessiner `To draw`
+- Construire `To build`
+- Transpirer `Sweat`
+- Adorer `Love`
+- Déteste `Hated`
+- Grandir `To grow up`
+- Partir `To leave`
+- Pouvoir `To be able to`
+
 ## Vocabulaire `Vocabulary`
 
 - Café `Coffee`
 - Eau `Water`
 - Bière `Beer`
+- Exercice `Exercise`
+- Entraînement `Training`
+- Résumé `Summary`
+- La table `Table`
+- La chaise `Chair`
+- Le sac `Bag`
+- Le stylo `Pen`
+- Le livre `Book`
+- Le miroir `Mirror`
 
-## Others
+## Conjugaison `Conjugation`
 
-Exercice `Exercise`
+|                  -er (marcher/sauter/nager) verbs                   |                                                                       |
+| :-----------------------------------------------------------------: | :-------------------------------------------------------------------: |
+|         Je `I` <br> -e <br> (march**e**/saut**e**/nag**e**)         |    Nous `We` <br> -ons <br> (march**ons**/saut**ons**/nag**eons**)    |
+|      Tu `You` <br> -es <br> (march**es**/saut**es**/nag**es**)      |     Vous `Y'all` <br> -ez <br> (march**ez**/saut**ez**/nag**ez**)     |
+| il/elle/on `He/she/we` <br> -e <br> (march**e**/saut**e**/nag**e**) | ils/elles `they` <br> -ent <br> (march**ent**/saut**ent**/nag**ent**) |
+
+|                   -ir (courir/grandir) verbs                   |                                                                     |
+| :------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|         Je `I` <br> -s/is <br> (cour**s**/grand**is**)         |    Nous `We` <br> -ons/ssons <br> (cour**ons**/grandi**ssons**)     |
+|        Tu `You` <br> -s/is <br> (cour**s**/grand**is**)        |     Vous `Y'all` <br> -ez/ssez <br> (cour**ez**/grandi**ssez**)     |
+| il/elle/on `He/she/we` <br> -t/it <br> (cour**t**/grand**it**) | ils/elles `they` <br> -ent/ssent <br> (cour**ent**/grandi**ssent**) |
+
+|                -re/oir (prendre/faire) verbs                |                                                                   |
+| :---------------------------------------------------------: | :---------------------------------------------------------------: |
+|          Je `I` <br> -s <br> (prend**s**/fai**s**)          |     Nous `We` <br> -ons/ssons <br> (pren**ons**/fais**ons**)      |
+|         Tu `You` <br> -s <br> (prend**s**/**fais**)         |      Vous `Y'all` <br> -ez/ssez <br> (pren**ez**/fait**es**)      |
+| il/elle/on `He/she/we` <br> -t/ø <br> (prend**ø**/fai**t**) | ils/elles `they` <br> -ent/ont/ssent <br> (prenn**ent**/f**ont**) |
+
+|              -/ (/) verbs              |                                  |
+| :------------------------------------: | :------------------------------: |
+|         Je `I` <br> - <br> (/)         |    Nous `We` <br> - <br> (/)     |
+|        Tu `You` <br> - <br> (/)        |   Vous `Y'all` <br> - <br> (/)   |
+| il/elle/on `He/she/we` <br> - <br> (/) | ils/elles `they` <br> - <br> (/) |
+
+## Exercice `Exercise`
+
+|                  |                              |
+| ---------------- | ---------------------------- |
+| J'aime `I like`  | Je n'aime pas `I don't like` |
+| J'adore `I love` | je déteste `I hate`          |
+
+- Faire de l'exercice
+- Faire du vélo
+- J'aime nager
+- Je n'aime pas danser
+- J'adore faire du vélo
+
+## Liste de mots/phrases français dans Lupin `List of French words/sentences in Lupin`
+
+- Une série originale.. `An original series..`
+- Bonjour `Good morning / hello`
+- C'est bon `It's good`
+- Allez `Go on`
+- On se dépêche `We hurry`
+- On n'a pas toute la nuit `We don't have all night`
+- Musique douce `Soft music`
+- C'est le collier de la Reine
