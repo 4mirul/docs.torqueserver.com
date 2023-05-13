@@ -5,9 +5,9 @@ repo_url: https://github.com/4mirul/docs.torqueserver.com
 nav:
   - Home: index.md
   - About: about.md
-  - Comptia A+ Notes: comptia-aplus.md
-  - Proxmox VE Notes: proxmox-ve.md
+  - Comptia A+ Notes: comptia-aplus-notes.md
   - French Language Notes: french-language-notes.md
+  - Proxmox VE Notes: proxmox-ve-notes.md
 theme:
   name: material
   palette:
