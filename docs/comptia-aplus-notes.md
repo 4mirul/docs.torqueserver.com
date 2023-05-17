@@ -149,4 +149,66 @@ New connectors;
 ### What is CPU(Central Processing Units)?
 
 - Referred as brain of the computer or the processor
--
+- Executing instructions and performing calculations in computer system
+- CPU consists of the arithmetic logic unit (ALU) and the control unit
+- ALU performs mathematical and logical operations
+- Control unit manages the activities of the CPU, including fetching, decoding, and executing instructions
+- CPU interacts with other hardware components such as memory, storage devices, and input/output devices
+- Retrieves instructions and data from memory, processes them, and stores results or sends them to output devices
+- Manufactured by companies like Intel, AMD, and ARM
+- Different CPUs have varying performance, power consumption, and features
+- CPUs are essential for running software applications and performing various tasks in computers, laptops, smartphones, and other electronic devices
+
+#### List of commonly used instructions in CPUs
+
+Arithmetic Instructions:
+
+- Addition (ADD)
+- Subtraction (SUB)
+- Multiplication (MUL)
+- Division (DIV)
+
+Logical Instructions:
+
+- Logical AND (AND)
+- Logical OR (OR)
+- Logical NOT (NOT)
+- Bitwise Shift (SHIFT)
+
+Data Transfer Instructions:
+
+- Move (MOV)
+- Load (LOAD)
+- Store (STORE)
+- Input (IN)
+- Output (OUT)
+
+Control FLow Instructions:
+
+- Jump (JMP)
+- Conditional Jump (JNZ,JZ,JG,JL,etc)
+- Compare (CMP)
+- Call (CALL)
+- Return (RET)
+
+Stack Manipulations Instructions:
+
+- Push (PUSH)
+- Pop (POP)
+
+Floating-Point Instructions:
+
+- Floating-Point Addition (FADD)
+- Floating-Point Multiplication (FMUL)
+- Floating-Point Division (FDIV)
+- Floating-Point Comparison (FCMP)
+
+System Instructions:
+
+- Halt (HLT)
+- Interrupt (INT)
+- System Call (SYSCALL)
+
+#### List of commonly components found inside a CPU
+
+1. Control Unit (CU):

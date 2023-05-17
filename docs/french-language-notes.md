@@ -1,10 +1,8 @@
 # Notes de langue française `French Language Notes`
 
-[![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/complete-french-course) [![Material for mkdocs](https://img.shields.io/badge/Material_for_mkdocs-indigo?style=for-the-badge&logo=readthedocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/reference/)
+[![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/complete-french-course)
 
-```.txt
-Windows Keyboard Shortcuts Cheat Sheet
-
+```.txt title="Windows; Keyboard Shortcuts Special Characters"
 Uppercase:
 
 À: Alt+0192
@@ -38,12 +36,9 @@ Lowercase:
 û: Alt+150
 ü: Alt+129
 œ (ligature): Alt+0156
-
 ```
 
-```.txt
-Linux Keyboard Shortcuts Cheat sheet
-
+```.txt title="Linux; Keyboard Shortcuts Special Characters"
 Uppercase:
 
 É (E with acute accent): Ctrl + Shift + U, then 00C9
@@ -79,7 +74,6 @@ Lowercase:
 æ (ligature ae): Ctrl + Shift + U, then 00E6
 ù (u with grave accent): Ctrl + Shift + U, then 00F9
 ÿ (y with diaeresis/umlaut): Ctrl + Shift + U, then 00FF
-
 ```
 
 ## Salutations `Greetings`
@@ -462,29 +456,79 @@ Lowercase:
 
 ## Conjugaison `Conjugation`
 
-|                  -er (marcher/sauter/nager) verbs                   |                                                                       |
-| :-----------------------------------------------------------------: | :-------------------------------------------------------------------: |
-|         Je `I` <br> -e <br> (march**e**/saut**e**/nag**e**)         |    Nous `We` <br> -ons <br> (march**ons**/saut**ons**/nag**eons**)    |
-|      Tu `You` <br> -es <br> (march**es**/saut**es**/nag**es**)      |     Vous `Y'all` <br> -ez <br> (march**ez**/saut**ez**/nag**ez**)     |
-| il/elle/on `He/she/we` <br> -e <br> (march**e**/saut**e**/nag**e**) | ils/elles `they` <br> -ent <br> (march**ent**/saut**ent**/nag**ent**) |
+|          -er (marcher) verbs           |                                      |
+| :------------------------------------: | :----------------------------------: |
+|         Je `I` -e (march**e**)         |    Nous `We` -ons (march**ons**)     |
+|       Tu `You` -es (march**es**)       |    Vous `Y'all` -ez (march**ez**)    |
+| il/elle/on `He/she/we` -e (march**e**) | ils/elles `they` -ent (march**ent**) |
 
-|                   -ir (courir/grandir) verbs                   |                                                                     |
-| :------------------------------------------------------------: | :-----------------------------------------------------------------: |
-|         Je `I` <br> -s/is <br> (cour**s**/grand**is**)         |    Nous `We` <br> -ons/ssons <br> (cour**ons**/grandi**ssons**)     |
-|        Tu `You` <br> -s/is <br> (cour**s**/grand**is**)        |     Vous `Y'all` <br> -ez/ssez <br> (cour**ez**/grandi**ssez**)     |
-| il/elle/on `He/she/we` <br> -t/it <br> (cour**t**/grand**it**) | ils/elles `they` <br> -ent/ssent <br> (cour**ent**/grandi**ssent**) |
+|          -er (sauter) verbs           |                                     |
+| :-----------------------------------: | :---------------------------------: |
+|         Je `I` -e (saut**e**)         |    Nous `We` -ons (saut**ons**)     |
+|       Tu `You` -es (saut**es**)       |    Vous `Y'all` -ez (saut**ez**)    |
+| il/elle/on `He/she/we` -e (saut**e**) | ils/elles `they` -ent (saut**ent**) |
 
-|                -re/oir (prendre/faire) verbs                |                                                                   |
-| :---------------------------------------------------------: | :---------------------------------------------------------------: |
-|          Je `I` <br> -s <br> (prend**s**/fai**s**)          |     Nous `We` <br> -ons/ssons <br> (pren**ons**/fais**ons**)      |
-|         Tu `You` <br> -s <br> (prend**s**/**fais**)         |      Vous `Y'all` <br> -ez/ssez <br> (pren**ez**/fait**es**)      |
-| il/elle/on `He/she/we` <br> -t/ø <br> (prend**ø**/fai**t**) | ils/elles `they` <br> -ent/ont/ssent <br> (prenn**ent**/f**ont**) |
+|          -er (nager) verbs           |                                    |
+| :----------------------------------: | :--------------------------------: |
+|         Je `I` -e (nag**e**)         |    Nous `We` -ons (nag**eons**)    |
+|       Tu `You` -es (nag**es**)       |    Vous `Y'all` -ez (nag**ez**)    |
+| il/elle/on `He/she/we` -e (nag**e**) | ils/elles `they` -ent (nag**ent**) |
 
-|              -/ (/) verbs              |                                  |
-| :------------------------------------: | :------------------------------: |
-|         Je `I` <br> - <br> (/)         |    Nous `We` <br> - <br> (/)     |
-|        Tu `You` <br> - <br> (/)        |   Vous `Y'all` <br> - <br> (/)   |
-| il/elle/on `He/she/we` <br> - <br> (/) | ils/elles `they` <br> - <br> (/) |
+|            -ir (courir) verbs            |                                           |
+| :--------------------------------------: | :---------------------------------------: |
+|         Je `I` -s/is (cour**s**)         |    Nous `We` -ons/ssons (cour**ons**)     |
+|        Tu `You` -s/is (cour**s**)        |    Vous `Y'all` -ez/ssez (cour**ez**)     |
+| il/elle/on `He/she/we` -t/it (cour**t**) | ils/elles `they` -ent/ssent (cour**ent**) |
+
+|            -ir (grandir) verbs             |                                               |
+| :----------------------------------------: | :-------------------------------------------: |
+|         Je `I` -s/is (grand**is**)         |    Nous `We` -ons/ssons (grandi**ssons**)     |
+|        Tu `You` -s/is (grand**is**)        |    Vous `Y'all` -ez/ssez (grandi**ssez**)     |
+| il/elle/on `He/she/we` -t/it (grand**it**) | ils/elles `they` -ent/ssent (grandi**ssent**) |
+
+|         -re/oir (prendre) verbs          |                                                |
+| :--------------------------------------: | :--------------------------------------------: |
+|          Je `I` -s (prend**s**)          |       Nous `We` -ons/ssons (pren**ons**)       |
+|         Tu `You` -s (prend**s**)         |       Vous `Y'all` -ez/ssez (pren**ez**)       |
+| il/elle/on `He/she/we` -t/ø (prend**ø**) | ils/elles `they` -ent/ont/ssent (prenn**ent**) |
+
+|         -re/oir (faire) verbs          |                                            |
+| :------------------------------------: | :----------------------------------------: |
+|          Je `I` -s (fai**s**)          |     Nous `We` -ons/ssons (fais**ons**)     |
+|         Tu `You` -s (fai**s**)         |     Vous `Y'all` -ez/ssez (fait**es**)     |
+| il/elle/on `He/she/we` -t/ø (fai**t**) | ils/elles `they` -ent/ont/ssent (f**ont**) |
+
+```.md title="template"
+|         () verbs          |                     |
+| :-----------------------: | :-----------------: |
+|         Je `I` ()         |    Nous `We` ()     |
+|        Tu `You` ()        |   Vous `Y'all` ()   |
+| il/elle/on `He/she/we` () | ils/elles `they` () |
+```
+
+```.md title="template"
+|   () verbs    |              |
+| :-----------: | :----------: |
+|     Je ()     |   Nous ()    |
+|     Tu ()     |   Vous ()    |
+| il/elle/on () | ils/elles () |
+```
+
+### Les verbes importants `Important verbs`
+
+```.md title="template"
+|   () verbs    |              |
+| :-----------: | :----------: |
+|     Je ()     |   Nous ()    |
+|     Tu ()     |   Vous ()    |
+| il/elle/on () | ils/elles () |
+```
+
+|   () verbs    |              |
+| :-----------: | :----------: |
+|     Je ()     |   Nous ()    |
+|     Tu ()     |   Vous ()    |
+| il/elle/on () | ils/elles () |
 
 ## Exercice `Exercise`
 
@@ -502,10 +546,25 @@ Lowercase:
 ## Liste de mots/phrases français dans Lupin `List of French words/sentences in Lupin`
 
 - Une série originale.. `An original series..`
+- Musique suspende `Suspenseful music`
 - Bonjour `Good morning / hello`
 - C'est bon `It's good`
 - Allez `Go on`
 - On se dépêche `We hurry`
+
+|   (dépêcher) verbs   |                       |
+| :------------------: | :-------------------: |
+|     Je (dépêche)     |   Nous (dépêchons)    |
+|    Tu (dépêches)     |    Vous (dépêchez)    |
+| il/elle/on (dépêche) | ils/elles (dépêchent) |
+
 - On n'a pas toute la nuit `We don't have all night`
 - Musique douce `Soft music`
-- C'est le collier de la Reine
+- C'est le collier de la Reine `It's the queen's necklace`
+- Ils le mettent aux enchères `They put it up for auction`
+
+|  (mettre) verbs  |                     |
+| :--------------: | :-----------------: |
+|    Je (mets)     |   Nous (mettons)    |
+|    Tu (mets)     |    Vous (mettez)    |
+| il/elle/on (met) | ils/elles (mettent) |

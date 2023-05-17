@@ -3,11 +3,16 @@ site_url: https://docs.torqueserver.com
 repo_name: 4mirul/docs.torqueserver.com
 repo_url: https://github.com/4mirul/docs.torqueserver.com
 nav:
-  - Home: index.md
-  - About: about.md
-  - Comptia A+ Notes: comptia-aplus-notes.md
-  - French Language Notes: french-language-notes.md
-  - Proxmox VE Notes: proxmox-ve-notes.md
+  - Introductions:
+      - Home: index.md
+      - About: about.md
+  - Study Notes:
+      - Comptia A+ Notes: comptia-aplus-notes.md
+      - French Language Notes: french-language-notes.md
+  - Linux Configuration:
+      - Proxmox VE Notes: proxmox-ve-notes.md
+  # - Windows Configuration:
+  # - Mac Configuration:
 theme:
   name: material
   palette:
@@ -28,6 +33,7 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
+    - navigation.sections
   icon:
     repo: fontawesome/brands/github
   font:
