@@ -36,6 +36,8 @@ Lowercase:
 û: Alt+150
 ü: Alt+129
 œ (ligature): Alt+0156
+
+ø: Alt+0248
 ```
 
 ```.txt title="Linux; Keyboard Shortcuts Special Characters"
@@ -74,6 +76,8 @@ Lowercase:
 æ (ligature ae): Ctrl + Shift + U, then 00E6
 ù (u with grave accent): Ctrl + Shift + U, then 00F9
 ÿ (y with diaeresis/umlaut): Ctrl + Shift + U, then 00FF
+
+ø: Ctrl + Shift + U, then 00F8
 ```
 
 ## Salutations `Greetings`
@@ -498,37 +502,137 @@ Lowercase:
 |         Tu `You` -s (fai**s**)         |     Vous `Y'all` -ez/ssez (fait**es**)     |
 | il/elle/on `He/she/we` -t/ø (fai**t**) | ils/elles `they` -ent/ont/ssent (f**ont**) |
 
-```.md title="template"
-|         () verbs          |                     |
-| :-----------------------: | :-----------------: |
-|         Je `I` ()         |    Nous `We` ()     |
-|        Tu `You` ()        |   Vous `Y'all` ()   |
-| il/elle/on `He/she/we` () | ils/elles `they` () |
-```
-
-```.md title="template"
-|   () verbs    |              |
-| :-----------: | :----------: |
-|     Je ()     |   Nous ()    |
-|     Tu ()     |   Vous ()    |
-| il/elle/on () | ils/elles () |
-```
-
 ### Les verbes importants `Important verbs`
 
 ```.md title="template"
-|   () verbs    |              |
-| :-----------: | :----------: |
-|     Je ()     |   Nous ()    |
-|     Tu ()     |   Vous ()    |
-| il/elle/on () | ils/elles () |
+|  () verbs  |           |
+| :--------: | :-------: |
+|     Je     |   Nous    |
+|     Tu     |   Vous    |
+| il/elle/on | ils/elles |
 ```
 
-|   () verbs    |              |
+```.md title="template"
+|   - verbs     |              |
 | :-----------: | :----------: |
-|     Je ()     |   Nous ()    |
-|     Tu ()     |   Vous ()    |
-| il/elle/on () | ils/elles () |
+|     Je -      |   Nous -     |
+|     Tu -      |   Vous -     |
+| il/elle/on -  | ils/elles -  |
+```
+
+|   -er verbs   |                |
+| :-----------: | :------------: |
+|     Je -e     |   Nous -ons    |
+|    Tu -es     |    Vous -ez    |
+| il/elle/on -e | ils/elles -ent |
+
+|    -ir verbs     |                      |
+| :--------------: | :------------------: |
+|     Je -s/is     |   Nous -ons/ssons    |
+|     Tu -s/is     |    Vous -ez/ssez     |
+| il/elle/on -t/it | ils/elles -ent/ssent |
+
+|  -re/oir verbs  |                          |
+| :-------------: | :----------------------: |
+|      Je -s      |     Nous -ons/ssons      |
+|      Tu -s      |      Vous -ez/ssez       |
+| il/elle/on -t/ø | ils/elles -ent/ont/ssent |
+
+|  Être `to be`  |                |
+| :------------: | :------------: |
+|    Je suis     |  Nous sommes   |
+|     Tu es      |   Vous êtes    |
+| il/elle/on est | ils/elles sont |
+
+| Avoir `to have` |               |
+| :-------------: | :-----------: |
+|      J'ai       |  Nous avons   |
+|      Tu as      |   Vous avez   |
+|  il/elle/on a   | ils/elles ont |
+
+| Aller `to go` (irrégulier) |                |
+| :------------------------: | :------------: |
+|          Je vais           |  Nous allons   |
+|           Tu vas           |   Vous allez   |
+|       il/elle/on vas       | ils/elles vont |
+
+| Partir `to leave` |                   |
+| :---------------: | :---------------: |
+|      Je pars      |   Nous partons    |
+|      Tu pars      |    Vous partez    |
+|  il/elle/on part  | ils/elles partent |
+
+| Pouvoir `to be able to` (irrégulier) |                   |
+| :----------------------------------: | :---------------: |
+|               Je peux                |   Nous pouvons    |
+|               Tu peux                |    Vous pouvez    |
+|           il/elle/on peut            | ils/elles peuvent |
+
+| Parler `to talk/speak` |                   |
+| :--------------------: | :---------------: |
+|        Je parle        |   Nous parlons    |
+|       Tu perles        |    Vous parlez    |
+|    il/elle/on parle    | ils/elles parlent |
+
+|  voir `to see`  |                  |
+| :-------------: | :--------------: |
+|     Je vois     |   Nous voyons    |
+|     Tu vois     |    Vous voyez    |
+| il/elle/on voit | ils/elles voient |
+
+| Grandir `to grow`  |                       |
+| :----------------: | :-------------------: |
+|     Je grandis     |   Nous grandissons    |
+|     Tu grandis     |    Vous grandissez    |
+| il/elle/on grandit | ils/elles grandissent |
+
+| Savoir `to know` (irrégulier) |                  |
+| :---------------------------: | :--------------: |
+|            Je sais            |   Nous savons    |
+|            Tu sais            |    Vous savez    |
+|        il/elle/on sait        | ils/elles savent |
+
+| Connaître `to know` |                     |
+| :-----------------: | :-----------------: |
+|     Je connais      |  Nous connaissons   |
+|     Tu connais      |   Vous connaissez   |
+| il/elle/on connaît  | ils/elles connaisse |
+
+| Mettre `to put` |                   |
+| :-------------: | :---------------: |
+|     Je mets     |   Nous mettons    |
+|     Tu mets     |    Vous mettez    |
+| il/elle/on met  | ils/elles mettent |
+
+| Dire `to say`  |                         |
+| :------------: | :---------------------: |
+|     Je dis     |       Nous disons       |
+|     Tu dis     | Vous dites (irrégulier) |
+| il/elle/on dit |    ils/elles disent     |
+
+| Vouloir `to want` (irrégulier) |                                |
+| :----------------------------: | :----------------------------: |
+|            Je veux             |          Nous voulons          |
+|            Tu veux             |          Vous voulez           |
+|        il/elle/on veut         | ils/elles veulent (irrégulier) |
+
+| Donner `to give` |                   |
+| :--------------: | :---------------: |
+|     Je donne     |   Nous donnons    |
+|    Tu donnes     |    Vous donnez    |
+| il/elle/on donne | ils/elles donnent |
+
+| Manger `to eat`  |                   |
+| :--------------: | :---------------: |
+|     Je mange     |   Nous mangeons   |
+|    Tu manges     |    Vous mangez    |
+| il/elle/on mange | ils/elles mangent |
+
+|            |           |
+| :--------: | :-------: |
+|     Je     |   Nous    |
+|     Tu     |   Vous    |
+| il/elle/on | ils/elles |
 
 ## Exercice `Exercise`
 
@@ -542,6 +646,62 @@ Lowercase:
 - J'aime nager
 - Je n'aime pas danser
 - J'adore faire du vélo
+
+## Entraînement `Training`
+
+Je suis `I am`
+
+Il parle `He speaks`
+
+Ils/Elles peuvent `They can`
+
+Tu es `You are`
+
+Nous allons / On va `We go`
+
+Elle voit `She sees`
+
+J'ai `I have`
+
+Ils/Elles sont `They are`
+
+Je parle `I speak`
+
+Tu peux `You can`
+
+Nous sommes / On est `We are`
+
+Vous partez `You all leave`
+
+Je vois `I see`
+
+Ils/Elles ont `They have`
+
+Je sais `I know`
+
+Il dit `He says`
+
+Ils/elles veulent `They want`
+
+Nous mangeons / On mange `We eat`
+
+Elle donne `She gives`
+
+Je mets `I put`
+
+Ils/Elles savent `They know`
+
+Vous dites `Y'all say`
+
+Je veux `I want`
+
+Nous connaissons / On connait `We know`
+
+Tu manges `You eat`
+
+Je donne `I give`
+
+Elle met `She puts`
 
 ## Liste de mots/phrases français dans Lupin `List of French words/sentences in Lupin`
 
