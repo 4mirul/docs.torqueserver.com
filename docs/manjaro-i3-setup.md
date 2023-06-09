@@ -1,0 +1,1 @@
+# Manjaro i3 Setup

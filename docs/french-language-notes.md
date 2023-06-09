@@ -1,4 +1,4 @@
-# Notes de langue française `French Language Notes`
+# Notes de langue française
 
 [![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/complete-french-course)
 
@@ -80,7 +80,7 @@ Lowercase:
 ø: Ctrl + Shift + U, then 00F8
 ```
 
-## Salutations `Greetings`
+## Salutations
 
 - Bienvenue `Welcome`
 - Bonjour `Hello / Good morning / Good Afternoon`
@@ -110,7 +110,7 @@ Lowercase:
 - Meilleurs vœux `Best wishes`
 - Bravo! `Congratulations!`
 
-## La politesse `Manners`
+## La politesse
 
 - S'il te plaît `Please (singular/informal)`
 - S'il vous plaît `Please (plural/formal)`
@@ -135,7 +135,7 @@ Lowercase:
 - Je suis à votre disposition `I am at your disposal (formal)`
 - Je vous en prie de m'excuser `I beg your pardon (formal)`
 
-## Nombres `Numbers`
+## Nombres
 
 - Un `1`
 - Deux `2`
@@ -237,7 +237,7 @@ Lowercase:
 - Un milliard `1,000,000,000`
 - Deux milliards `2,000,000,000`
 
-## Couleurs `Colors`
+## Couleurs
 
 - Bleu(e) `Blue`
 - Rouge `Red`
@@ -265,7 +265,7 @@ Lowercase:
 - Corail `Coral`
 - Citron `Lemon`
 
-## La nourriture `Food`
+## La nourriture
 
 - Le pain `Bread`
 - Du riz `Rice`
@@ -310,7 +310,7 @@ Lowercase:
 - Des protéines `Proteins`
 - De l'édulcorant `Sweetener`
 
-## L'alphabet `The alphabet`
+## L'alphabet
 
 - a `a`
 - be `b`
@@ -339,7 +339,7 @@ Lowercase:
 - igʁɛk `y`
 - zɛd `z`
 
-## Les animaux `Animals`
+## Les animaux
 
 - Un chat `Cat`
 - Un chien `Dog`
@@ -364,7 +364,7 @@ Lowercase:
 - Serpent `Snake`
 - Requin `Shark`
 
-## Prépositions `Prepositions`
+## Prépositions
 
 - À `To/at/in`
 - De `Of/from`
@@ -387,13 +387,13 @@ Lowercase:
 - À travers `Through/across`
 - En face de `In front of/opposite`
 
-## Articles indéfinis `Indefinite articles`
+## Articles indéfinis
 
 - Un `A (masculine)`
 - Une `A (feminine)`
 - Des `Some (plural)`
 
-## Verbs `Verbs`
+## Verbs
 
 - Aimer `To love / to like`
 - Aller `To go`
@@ -443,7 +443,7 @@ Lowercase:
 - Partir `To leave`
 - Pouvoir `To be able to`
 
-## Vocabulaire `Vocabulary`
+## Vocabulaire
 
 - Café `Coffee`
 - Eau `Water`
@@ -458,7 +458,7 @@ Lowercase:
 - Le livre `Book`
 - Le miroir `Mirror`
 
-## Conjugaison `Conjugation`
+## Conjugaison
 
 |          -er (marcher) verbs           |                                      |
 | :------------------------------------: | :----------------------------------: |
@@ -502,7 +502,7 @@ Lowercase:
 |         Tu `You` -s (fai**s**)         |     Vous `Y'all` -ez/ssez (fait**es**)     |
 | il/elle/on `He/she/we` -t/ø (fai**t**) | ils/elles `they` -ent/ont/ssent (f**ont**) |
 
-### Les verbes importants `Important verbs`
+### Les verbes importants
 
 ```.md title="template"
 |  () verbs  |           |
@@ -634,7 +634,7 @@ Lowercase:
 |     Tu     |   Vous    |
 | il/elle/on | ils/elles |
 
-## Exercice `Exercise`
+## Exercice
 
 |                  |                              |
 | ---------------- | ---------------------------- |
@@ -646,8 +646,11 @@ Lowercase:
 - J'aime nager
 - Je n'aime pas danser
 - J'adore faire du vélo
+- Résumé de la leçon 1
+- Je viens de [pays]
+- Quel est ton prénom?
 
-## Entraînement `Training`
+## Entraînement
 
 Je suis `I am`
 
@@ -703,7 +706,7 @@ Je donne `I give`
 
 Elle met `She puts`
 
-## Liste de mots/phrases français dans Lupin `List of French words/sentences in Lupin`
+## Liste de mots/phrases français dans Lupin
 
 - Une série originale.. `An original series..`
 - Musique suspende `Suspenseful music`

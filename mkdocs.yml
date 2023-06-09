@@ -9,8 +9,10 @@ nav:
   - Study Notes:
       - Comptia A+ Notes: comptia-aplus-notes.md
       - French Language Notes: french-language-notes.md
+      - C# Notes: c-sharp-notes.md
   - Linux Configuration:
-      - Proxmox VE Notes: proxmox-ve-notes.md
+      - Proxmox VE Setup: proxmox-ve-setup.md
+      - Manjaro i3 Setup: manjaro-i3-setup.md 
   # - Windows Configuration:
   # - Mac Configuration:
 theme:

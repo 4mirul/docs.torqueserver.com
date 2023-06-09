@@ -1,4 +1,4 @@
-# Proxmox VE Notes
+# Proxmox VE Setup
 
 ## Installing Proxmox VE
 
