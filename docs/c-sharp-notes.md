@@ -1,7 +1,6 @@
 # C# Notes
 
 [![W3Schools](https://img.shields.io/badge/W3Schools-seagreen?style=for-the-badge&logoColor=white)](https://www.w3schools.com/cs/)
-
 [![Microsoft: Tutorial](https://img.shields.io/badge/Tutorial-blue?style=for-the-badge&logo=Microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code)
 
 ## Tutorial
