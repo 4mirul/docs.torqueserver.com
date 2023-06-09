@@ -732,7 +732,7 @@ for (int i = 0; i < numbers.GetLength(0); i++)
 
 ## Methods
 
-### Methods
+### Method
 
 A method is a block of code which only runs when its is called
 
