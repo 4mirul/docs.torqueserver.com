@@ -12,7 +12,7 @@ nav:
       - C# Notes: c-sharp-notes.md
   - Linux Configuration:
       - Proxmox VE Setup: proxmox-ve-setup.md
-      - Manjaro i3 Setup: manjaro-i3-setup.md 
+      - Manjaro i3 Setup: manjaro-i3-setup.md
   # - Windows Configuration:
   # - Mac Configuration:
 theme:
@@ -80,9 +80,12 @@ extra:
     - name: English
       # link: /en/
       lang: en
-    - name: Bahasa Malaysia
+    - name: Bahasa Melayu
       # link: /ms/
       lang: ms
+    - name: Jawi
+      # link: /jw/
+      lang: jw
     - name: Langue Française
       # link: /fr/
       lang: fr
