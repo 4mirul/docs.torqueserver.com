@@ -502,6 +502,12 @@ Lowercase:
 |         Tu `You` -s (fai**s**)         |     Vous `Y'all` -ez/ssez (fait**es**)     |
 | il/elle/on `He/she/we` -t/ø (fai**t**) | ils/elles `they` -ent/ont/ssent (f**ont**) |
 
+|  (Être) verbs  |           |
+| :--------: | :-------: |
+|     Je suis    |   Nous sommes   |
+|     Tu es     |   Vous êtes    |
+| il/elle est | ils/elles sont |
+
 ### Les verbes importants
 
 ```.md title="template"
