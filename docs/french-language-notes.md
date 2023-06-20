@@ -1,4 +1,4 @@
-# Notes de langue française
+# [WIP] Notes de langue française
 
 [![Udemy](https://img.shields.io/badge/Udemy-blueviolet?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/complete-french-course)
 
