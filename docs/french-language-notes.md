@@ -460,72 +460,6 @@ Lowercase:
 
 ## Conjugaison
 
-|          -er (marcher) verbs           |                                      |
-| :------------------------------------: | :----------------------------------: |
-|         Je `I` -e (march**e**)         |    Nous `We` -ons (march**ons**)     |
-|       Tu `You` -es (march**es**)       |    Vous `Y'all` -ez (march**ez**)    |
-| il/elle/on `He/she/we` -e (march**e**) | ils/elles `they` -ent (march**ent**) |
-
-|          -er (sauter) verbs           |                                     |
-| :-----------------------------------: | :---------------------------------: |
-|         Je `I` -e (saut**e**)         |    Nous `We` -ons (saut**ons**)     |
-|       Tu `You` -es (saut**es**)       |    Vous `Y'all` -ez (saut**ez**)    |
-| il/elle/on `He/she/we` -e (saut**e**) | ils/elles `they` -ent (saut**ent**) |
-
-|          -er (nager) verbs           |                                    |
-| :----------------------------------: | :--------------------------------: |
-|         Je `I` -e (nag**e**)         |    Nous `We` -ons (nag**eons**)    |
-|       Tu `You` -es (nag**es**)       |    Vous `Y'all` -ez (nag**ez**)    |
-| il/elle/on `He/she/we` -e (nag**e**) | ils/elles `they` -ent (nag**ent**) |
-
-|            -ir (courir) verbs            |                                           |
-| :--------------------------------------: | :---------------------------------------: |
-|         Je `I` -s/is (cour**s**)         |    Nous `We` -ons/ssons (cour**ons**)     |
-|        Tu `You` -s/is (cour**s**)        |    Vous `Y'all` -ez/ssez (cour**ez**)     |
-| il/elle/on `He/she/we` -t/it (cour**t**) | ils/elles `they` -ent/ssent (cour**ent**) |
-
-|            -ir (grandir) verbs             |                                               |
-| :----------------------------------------: | :-------------------------------------------: |
-|         Je `I` -s/is (grand**is**)         |    Nous `We` -ons/ssons (grandi**ssons**)     |
-|        Tu `You` -s/is (grand**is**)        |    Vous `Y'all` -ez/ssez (grandi**ssez**)     |
-| il/elle/on `He/she/we` -t/it (grand**it**) | ils/elles `they` -ent/ssent (grandi**ssent**) |
-
-|         -re/oir (prendre) verbs          |                                                |
-| :--------------------------------------: | :--------------------------------------------: |
-|          Je `I` -s (prend**s**)          |       Nous `We` -ons/ssons (pren**ons**)       |
-|         Tu `You` -s (prend**s**)         |       Vous `Y'all` -ez/ssez (pren**ez**)       |
-| il/elle/on `He/she/we` -t/ø (prend**ø**) | ils/elles `they` -ent/ont/ssent (prenn**ent**) |
-
-|         -re/oir (faire) verbs          |                                            |
-| :------------------------------------: | :----------------------------------------: |
-|          Je `I` -s (fai**s**)          |     Nous `We` -ons/ssons (fais**ons**)     |
-|         Tu `You` -s (fai**s**)         |     Vous `Y'all` -ez/ssez (fait**es**)     |
-| il/elle/on `He/she/we` -t/ø (fai**t**) | ils/elles `they` -ent/ont/ssent (f**ont**) |
-
-|  (Être) verbs  |           |
-| :--------: | :-------: |
-|     Je suis    |   Nous sommes   |
-|     Tu es     |   Vous êtes    |
-| il/elle est | ils/elles sont |
-
-### Les verbes importants
-
-```.md title="template"
-|  () verbs  |           |
-| :--------: | :-------: |
-|     Je     |   Nous    |
-|     Tu     |   Vous    |
-| il/elle/on | ils/elles |
-```
-
-```.md title="template"
-|   - verbs     |              |
-| :-----------: | :----------: |
-|     Je -      |   Nous -     |
-|     Tu -      |   Vous -     |
-| il/elle/on -  | ils/elles -  |
-```
-
 |   -er verbs   |                |
 | :-----------: | :------------: |
 |     Je -e     |   Nous -ons    |
@@ -543,6 +477,8 @@ Lowercase:
 |      Je -s      |     Nous -ons/ssons      |
 |      Tu -s      |      Vous -ez/ssez       |
 | il/elle/on -t/ø | ils/elles -ent/ont/ssent |
+
+### Les verbes importants
 
 |  Être `to be`  |                |
 | :------------: | :------------: |
@@ -634,18 +570,362 @@ Lowercase:
 |    Tu manges     |    Vous mangez    |
 | il/elle/on mange | ils/elles mangent |
 
-|            |           |
-| :--------: | :-------: |
-|     Je     |   Nous    |
-|     Tu     |   Vous    |
-| il/elle/on | ils/elles |
+```.txt
+Marcher
+je marche
+tu marches
+il marche
+nous marchons
+vous marchez
 
-## Exercice
+Sauter
+je saute
+tu sautes
+il saute
+nous sautons
+vous sautez
+ils sautent
 
-|                  |                              |
-| ---------------- | ---------------------------- |
-| J'aime `I like`  | Je n'aime pas `I don't like` |
-| J'adore `I love` | je déteste `I hate`          |
+Nager
+je nage
+tu nages
+il nage
+nous nageons
+vous nagez
+ils nagent
+
+Jouer
+je joue
+tu joues
+il joue
+nous jouons
+vous jouez
+ils jouent
+
+Chanter
+je chante
+tu chantes
+il chante
+nous chantons
+vous chantez
+ils chantent
+
+Manger
+je mange
+tu manges
+il mange
+nous mangeons
+vous mangez
+ils mangent
+
+Parler
+je parle
+tu parles
+il parle
+nous parlons
+vous parlez
+ils parlent
+
+Danser
+je danse
+tu danses
+il danse
+nous dansons
+vous dansez
+ils dansent
+
+Étudier
+je étudie
+tu étudies
+il étudie
+nous étudiions
+vous étudiiez
+ils étudiaient
+
+Regarder
+je regarde
+tu regardes
+il regarde
+nous regardons
+vous regardez
+ils regardent
+
+Travailler
+je travaille
+tu travailles
+il travaille
+nous travaillons
+vous travaillez
+ils travaillent
+
+Voyager
+je voyage
+tu voyages
+il voyage
+nous voyageons
+vous voyagez
+ils voyagent
+
+Grandir
+je grandis
+tu grandis
+il grandit
+nous grandissons
+vous grandissez
+ils grandissent
+
+Courir
+je cours
+tu cours
+il court
+nous courons
+vous courez
+ils courent
+
+Finir
+je finis
+tu finis
+il finit
+nous finissons
+vous finissez
+ils finissent
+
+Choisir
+je choisis
+tu choisis
+il choisit
+nous choisissons
+vous choisissez
+ils choisissent
+
+Réfléchir
+je réfléchis
+tu réfléchis
+il réfléchit
+nous réfléchissons
+vous réfléchissez
+ils réfléchissent
+
+Réussir
+je réussis
+tu réussis
+il réussit
+nous réussissons
+vous réussissez
+ils réussissent
+
+Obéir
+je obéis
+tu obéis
+il obéit
+nous obéissons
+vous obéissez
+ils obéissent
+
+Punir
+je punis
+tu punis
+il punit
+nous punissons
+vous punissez
+ils punissent
+
+Rougir
+je rougis
+tu rougis
+il rougit
+nous rougissons
+vous rougissez
+ils rougissent
+
+Réagir
+je réagis
+tu réagis
+il réagit
+nous réagissons
+vous réagissez
+ils réagissent
+
+Prendre
+je prends
+tu prends
+il prendre
+nous prenons
+vous prenez
+ils prennent
+
+Comprendre
+je comprends
+tu comprends
+il comprend
+nous comprenons
+vous comprenez
+ils comprennent
+
+Mettre
+je mets
+tu mets
+ils met
+nous mettons
+vous mettez
+ils mettent
+
+Vendre
+je vends
+tu vends
+il vend
+nous vendons
+vous vendez
+ils vendent
+
+Répondre
+je réponds
+tu réponds
+il répond
+nous répondons
+vous répondez
+ils répondent
+
+Conduire
+je conduis
+tu conduis
+il conduit
+nous conduisons
+vous conduisez
+ils conduisent
+
+Défendre
+je défends
+tu défends
+il défend
+nous défendons
+vous défendez
+ils défendent
+
+Perdre
+je perds
+tu perds
+il perd
+nous perdons
+vous perdez
+ils perdent
+
+Croire
+je crois
+tu crois
+il croit
+nous croyons
+vous croyez
+nous croient
+
+Vouloir
+je veux
+tu veux
+il veut
+nous voulons
+vous voulez
+ils veulent
+
+Savoir
+je sais
+tu sais
+il sait
+nous savons
+vous savez
+ils savent
+
+Recevoir
+je reçois
+tu reçois
+il reçoit
+nous recevons 
+vous recevez
+ils reçoivent
+
+Pouvoir
+je peux
+tu peux
+il peut
+nous pouvons
+vous pouvez
+ils peuvent
+
+Boire
+je bois
+tu bois
+il boit
+nous buvons
+vous buvez
+ils boivent
+
+Rire
+je ris
+tu ris
+il rit
+nous rions
+vous riez
+ils rient
+
+Lire
+je lis
+tu lis
+il lit
+nous lisons
+vous lisez
+ils lisent
+
+Faire
+je fais
+tu fais
+il fait
+nous faisons
+vous faites
+ils font
+
+Partir
+je partis
+tu partis
+il partit
+nous partons
+vous partez
+ils partent
+
+Dormir
+je dors
+tu dors
+il dort
+nous dormons
+vous dormez
+ils dorment
+
+Sortir
+je sors
+tu sors
+il sort
+nous sortons
+vous sortez
+nous sortent
+```
+
+## Entraînement/Exercice
+
+| French Phrase                   | English Translation    |
+| ------------------------------- | ---------------------- |
+| J'aime                          | I like                 |
+| Je n'aime pas                   | I don't like           |
+| J'adore                         | I love                 |
+| Je déteste                      | I hate                 |
+| Je préfère                      | I prefer               |
+| Je suis fan de                  | I am a fan of          |
+| Je trouve que                   | I think that           |
+| Je suis d'accord                | I agree                |
+| Je ne suis pas d'accord         | I disagree             |
+| Je suis intéressé(e) par        | I am interested in     |
+| Je ne suis pas intéressé(e) par | I am not interested in |
+| Je suis excité(e)               | I am excited           |
+| Je suis déçu(e)                 | I am disappointed      |
+| Je suis surpris(e)              | I am surprised         |
+| Je suis en colère               | I am angry             |
 
 - Faire de l'exercice
 - Faire du vélo
@@ -655,8 +935,6 @@ Lowercase:
 - Résumé de la leçon 1
 - Je viens de [pays]
 - Quel est ton prénom?
-
-## Entraînement
 
 Je suis `I am`
 
@@ -737,3 +1015,53 @@ Elle met `She puts`
 |    Je (mets)     |   Nous (mettons)    |
 |    Tu (mets)     |    Vous (mettez)    |
 | il/elle/on (met) | ils/elles (mettent) |
+
+## Recueil de Petites Histoires
+
+### La Petite Fille et le Papillon
+
+Il était une fois une petite fille nommée Sophie. Sophie aimait passer du temps dans le jardin de sa grand-mère. Un jour, alors qu'elle jouait dans le jardin, elle aperçut un magnifique papillon aux couleurs vives. Le papillon virevoltait de fleur en fleur, attirant l'attention de Sophie.
+
+Curieuse, Sophie décida de suivre le papillon. Elle le poursuivit à travers le jardin, en essayant de l'attraper du bout des doigts. Mais le papillon était trop rapide et se posait toujours juste hors de sa portée.
+
+Finalement, le papillon se posa sur une fleur. Sophie s'approcha doucement, espérant ne pas effrayer le papillon. Elle tendit la main et le papillon se posa délicatement sur son doigt.
+
+Sophie était enchantée. Elle regarda le papillon de près, admirant ses ailes colorées. Puis, elle le laissa s'envoler, le regardant disparaître dans le ciel.
+
+Depuis ce jour, Sophie aimait observer les papillons dans le jardin de sa grand-mère. Chaque fois qu'elle en voyait un, elle se rappelait du moment magique où elle avait pu tenir un papillon sur son doigt.
+
+Fin.
+
+### The Little Girl and the Butterfly
+
+Once upon a time, there was a little girl named Sophie. Sophie loved spending time in her grandmother's garden. One day, while she was playing in the garden, she spotted a beautiful butterfly with vibrant colors. The butterfly was fluttering from flower to flower, catching Sophie's attention.
+
+Curious, Sophie decided to follow the butterfly. She chased it through the garden, trying to catch it with her fingertips. But the butterfly was too fast and always landed just out of her reach.
+
+Finally, the butterfly landed on a flower. Sophie approached slowly, hoping not to scare the butterfly away. She reached out her hand, and the butterfly gently landed on her finger.
+
+Sophie was enchanted. She looked closely at the butterfly, admiring its colorful wings. Then, she let it fly away, watching it disappear into the sky.
+
+Since that day, Sophie loved observing butterflies in her grandmother's garden. Every time she saw one, she remembered the magical moment when she had held a butterfly on her finger.
+
+The End.
+
+### Le Petit Chaperon Rouge
+
+Il était une fois une petite fille appelée le Petit Chaperon Rouge. Un jour, sa mère lui demanda de porter un panier de nourriture à sa grand-mère malade. En chemin, elle rencontra un loup qui essaya de la tromper. Mais grâce à son ingéniosité, le Petit Chaperon Rouge réussit à échapper au loup et à sauver sa grand-mère.
+
+### La Belle au Bois Dormant
+
+Au cœur d'une forêt enchantée, une princesse nommée Aurore tomba dans un profond sommeil à cause d'un sort jeté par une sorcière maléfique. Pendant de nombreuses années, elle resta endormie jusqu'à ce qu'un prince courageux vienne la réveiller d'un baiser d'amour véritable.
+
+### Le Vilain Petit Canard
+
+Dans une basse-cour, un caneton était souvent rejeté par ses frères et sœurs à cause de sa différence. Il était plus grand et plus maladroit. Mais un jour, il réalisa qu'il n'était pas un canard ordinaire, mais un magnifique cygne. Finalement, il trouva sa véritable place parmi les siens.
+
+### Le Lion et la Souris
+
+Un lion puissant se retrouva piégé dans un filet tendu par des chasseurs. Une petite souris passa par là et, avec son courage, rongea les cordes pour libérer le lion. Reconnaissant, le lion comprit que même les plus petites créatures peuvent rendre de grands services.
+
+### Le Petit Poucet
+
+Le Petit Poucet était un garçon très malin et audacieux. Perdu dans la forêt avec ses frères, il utilisa des miettes de pain pour retrouver son chemin et les guider en toute sécurité jusqu'à leur maison. Grâce à son intelligence, ils échappèrent aux dangers et retrouvèrent leur famille.
