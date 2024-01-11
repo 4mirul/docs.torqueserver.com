@@ -7,6 +7,7 @@ nav:
       - Home: index.md
       - About: about.md
   - Study Notes:
+      - Fardhu Ain: fardhu-ain.md
       - Comptia A+ Notes: comptia-aplus-notes.md
       - French Language Notes: french-language-notes.md
       - C# Notes: c-sharp-notes.md
