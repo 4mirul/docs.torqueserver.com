@@ -6,6 +6,7 @@ nav:
   - Introductions:
       - Home: index.md
       - About: about.md
+      - Tags: tags.md
   - Study Notes:
       - Panduan Hidup: panduan-hidup.md
       - Comptia A+ Notes: comptia-aplus-notes.md
@@ -76,6 +77,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - abbr
+plugins:
+  - tags:
+      tags_file: tags.md
 extra:
   alternate:
     - name: English

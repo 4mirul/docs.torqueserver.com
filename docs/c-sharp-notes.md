@@ -1,3 +1,12 @@
+---
+tags:
+  - WIP
+  - Article
+  - Tutorial
+  - Guide
+  - FAQ
+  - How-to
+---
 # C# Notes
 
 [![W3Schools](https://img.shields.io/badge/W3Schools-seagreen?style=for-the-badge&logoColor=white)](https://www.w3schools.com/cs/)
