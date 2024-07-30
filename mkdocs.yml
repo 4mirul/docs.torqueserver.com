@@ -17,6 +17,8 @@ nav:
       - Manjaro i3 Setup: manjaro-i3-setup.md
   # - Windows Configuration:
   # - Mac Configuration:
+  - tldr:
+      - SCP Command to Securely Transfer Files: scp.md
 theme:
   name: material
   palette:
