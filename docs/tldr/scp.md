@@ -1,9 +1,10 @@
 ---
 tags:
-  - linux
   - tldr
+  - linux
+  - 2024-08
 ---
-# SCP Command to Securely Transfer Files
+# SCP Command to Securely Transfer Files Between Hosts
 
 Secure copy.Copy files between hosts using Secure Copy Protocol over SSH.
 More information: https://man.openbsd.org/scp.

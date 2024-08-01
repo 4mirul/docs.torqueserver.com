@@ -18,7 +18,10 @@ nav:
   # - Windows Configuration:
   # - Mac Configuration:
   - tldr:
-      - SCP Command to Securely Transfer Files: scp.md
+      - SCP Command to Securely Transfer Files Between Hosts: tldr/scp.md
+      - Enable `journald` for Docker: tldr/journald-docker.md
+      - No Proxmox VE Subscription Notice: tldr/no-pve-sub-notice.md
+      - Best Web File Manager: tldr/best-web-fm.md
 theme:
   name: material
   palette:
