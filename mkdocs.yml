@@ -53,8 +53,7 @@ theme:
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -84,7 +83,7 @@ markdown_extensions:
   - abbr
 plugins:
   - tags:
-      tags_file: tags.md
+      tags: true
 extra:
   alternate:
     - name: English
