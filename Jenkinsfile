@@ -86,7 +86,7 @@ pipeline {
                         docker rm ${DOCKER_IMAGE} || true
                         docker run -d -p 8084:80 \
                             --name docs-torqueserver \
-                            ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
+                            ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:latest
                     """
                 }
             }
@@ -100,7 +100,7 @@ pipeline {
         }
         success {
             echo "Pipeline succeeded! Image available at:"
-            echo "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}"
+            echo "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:latest"
         }
         failure {
             echo 'Pipeline failed'
