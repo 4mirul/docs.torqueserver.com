@@ -42,13 +42,13 @@ pipeline {
                         ).trim()
                         
                         if (status != '200') {
-                            error "Test failed: Expected HTTP 200 but got ${status}"
+                            error "Test failed: Expected HTTP 200 but got ${status}".toString()
                         }
                         
                         // Additional test - check if index.html exists
                         sh "docker exec ${DOCKER_IMAGE} ls /usr/share/nginx/html/index.html"
                         
-                        echo "Tests passed successfully"
+                        echo "Tests passed successfully".toString()
                     } finally {
                         // Clean up test container
                         sh "docker stop ${DOCKER_IMAGE} || true"
