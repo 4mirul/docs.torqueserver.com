@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Build with cache from registry if available
-                    docker.build("docker.io/${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}", 
+                    docker.build("${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}", 
                                "--build-arg BUILDKIT_INLINE_CACHE=1 .")
                 }
             }
@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                        docker pull docker.io/${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
+                        docker pull ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
                         docker stop ${DOCKER_IMAGE} || true
                         docker rm ${DOCKER_IMAGE} || true
                         docker run -d -p 8084:80 \
@@ -98,11 +98,11 @@ pipeline {
             steps {
                 script {
                     // Example deployment command - adjust based on your needs
-                    echo "Deploying docker.io/${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}"
+                    echo "Deploying ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}"
                     
                     // For simple deployment (update container):
                     sh """
-                        docker pull docker.io/${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
+                        docker pull ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
                         docker stop ${DOCKER_IMAGE} || true
                         docker rm ${DOCKER_IMAGE} || true
                         docker run -d -p 8084:80 \
