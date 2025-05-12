@@ -38,7 +38,7 @@ pipeline {
             steps {
                 script {
                     // Login to registry and push image
-                    docker.withRegistry("https://index.docker.io/v1/", REGISTRY_CREDENTIALS) {
+                    docker.withRegistry("https://registry.hub.docker.com", REGISTRY_CREDENTIALS) {
                         docker.image("${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}").push()
                         
                         // Also push as 'latest' if this is the main branch
