@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'docs-torqueserver'  // You can change this to your preferred image name
         DOCKER_TAG = "${env.BUILD_NUMBER}"  // Using build number as tag
-        DOCKER_REGISTRY = '4mirul'
+        DOCKER_REGISTRY = 'index.docker.io/v1/'
         // If you need credentials, set them up in Jenkins and reference here
         REGISTRY_CREDENTIALS = credentials('jenkins-dockerhub') // Change to your Jenkins credentials ID
     }
