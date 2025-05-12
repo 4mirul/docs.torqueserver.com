@@ -67,7 +67,7 @@ pipeline {
                         docker pull ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
                         docker stop docs-torqueserver || true
                         docker rm docs-torqueserver || true
-                        docker run -d -p 80:80 \
+                        docker run -d -p 8084:80 \
                             --name docs-torqueserver \
                             ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
                     """
