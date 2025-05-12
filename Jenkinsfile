@@ -30,7 +30,7 @@ pipeline {
                     // Run container and test if Nginx is serving MkDocs
                     def testContainer = docker.run(
                         "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}",
-                        '-d -p 8084:80 --name ${DOCKER_IMAGE}'
+                        '-d -p 8084:80 --name docs-torqueserver'
                     )
                     try {
                         // Wait for container to start
