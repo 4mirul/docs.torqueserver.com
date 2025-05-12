@@ -24,6 +24,40 @@ pipeline {
             }
         }
 
+        stage('Test Container') {
+            steps {
+                script {
+                    // Run container and test if Nginx is serving MkDocs
+                    def testContainer = docker.run(
+                        "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}",
+                        '-d -p 8084:80 --name ${DOCKER_IMAGE}'
+                    )
+                    try {
+                        // Wait for container to start
+                        sleep 5
+                        // Test if the site is accessible
+                        def status = sh(
+                            script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:8084",
+                            returnStdout: true
+                        ).trim()
+                        
+                        if (status != '200') {
+                            error "Test failed: Expected HTTP 200 but got ${status}"
+                        }
+                        
+                        // Additional test - check if index.html exists
+                        sh "docker exec ${DOCKER_IMAGE} ls /usr/share/nginx/html/index.html"
+                        
+                        echo "Tests passed successfully"
+                    } finally {
+                        // Clean up test container
+                        sh "docker stop ${DOCKER_IMAGE} || true"
+                        sh "docker rm ${DOCKER_IMAGE} || true"
+                    }
+                }
+            }
+        }
+
         stage('Push to Registry') {
             when {
                 // Only push for main branch or tags
@@ -65,8 +99,8 @@ pipeline {
                     // For simple deployment (update container):
                     sh """
                         docker pull ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
-                        docker stop docs-torqueserver || true
-                        docker rm docs-torqueserver || true
+                        docker stop ${DOCKER_IMAGE} || true
+                        docker rm ${DOCKER_IMAGE} || true
                         docker run -d -p 8084:80 \
                             --name docs-torqueserver \
                             ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
