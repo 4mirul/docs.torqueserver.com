@@ -28,9 +28,9 @@ pipeline {
             steps {
                 script {
                     // Run container and test if Nginx is serving MkDocs
-                    def testContainer = docker.run(
-                        "${DOCKER_REGISTRY}/docs-torqueserver:${DOCKER_TAG}",
-                        '-d -p 8084:80 --name docs-torqueserver'
+                    def docker.run(
+                        "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}",
+                        '-d -p 8084:80 --name ${DOCKER_IMAGE}'
                     )
                     try {
                         // Wait for container to start
@@ -46,13 +46,13 @@ pipeline {
                         }
                         
                         // Additional test - check if index.html exists
-                        sh "docker exec docs-torqueserver ls /usr/share/nginx/html/index.html"
+                        sh "docker exec ${DOCKER_IMAGE} ls /usr/share/nginx/html/index.html"
                         
                         echo "Tests passed successfully"
                     } finally {
                         // Clean up test container
-                        sh "docker stop docs-torqueserver || true"
-                        sh "docker rm docs-torqueserver || true"
+                        sh "docker stop ${DOCKER_IMAGE} || true"
+                        sh "docker rm ${DOCKER_IMAGE} || true"
                     }
                 }
             }
