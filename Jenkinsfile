@@ -62,38 +62,18 @@ pipeline {
         }
 
         stage('Push to Registry') {
-            when {
-                // Only push for main branch or tags
-                anyOf {
-                    branch 'main'
-                    branch 'master'
-                    tag '*'
-                }
-            }
             steps {
                 script {
                     // Login to registry and push image
                     docker.withRegistry("https://registry.hub.docker.com", 'jenkins-dockerhub') {
                         docker.image("${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}").push()
-                        
-                        // Also push as 'latest' if this is the main branch
-                        if (env.BRANCH_NAME == 'main' || env.BRANCH_NAME == 'master') {
-                            docker.image("${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}").push('latest')
-                        }
+                        docker.image("${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}").push('latest')
                     }
                 }
             }
         }
 
         stage('Deploy') {
-            when {
-                // Only deploy for main branch or tags
-                anyOf {
-                    branch 'main'
-                    branch 'master'
-                    tag '*'
-                }
-            }
             steps {
                 script {
                     // Example deployment command - adjust based on your needs
