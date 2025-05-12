@@ -5,8 +5,6 @@ pipeline {
         DOCKER_IMAGE = 'docs-torqueserver'  // You can change this to your preferred image name
         DOCKER_TAG = "${env.BUILD_NUMBER}"  // Using build number as tag
         DOCKER_REGISTRY = '4mirul'
-        // If you need credentials, set them up in Jenkins and reference here
-        REGISTRY_CREDENTIALS = credentials('jenkins-dockerhub') // Change to your Jenkins credentials ID
     }
 
     stages {
@@ -38,7 +36,7 @@ pipeline {
             steps {
                 script {
                     // Login to registry and push image
-                    docker.withRegistry("https://registry.hub.docker.com", REGISTRY_CREDENTIALS) {
+                    docker.withRegistry("https://registry.hub.docker.com", 'jenkins-dockerhub') {
                         docker.image("${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}").push()
                         
                         // Also push as 'latest' if this is the main branch
