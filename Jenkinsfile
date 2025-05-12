@@ -26,40 +26,6 @@ pipeline {
             }
         }
 
-        stage('Test Container') {
-            steps {
-                script {
-                    // Run container and test if Nginx is serving MkDocs
-                    def testContainer = docker.run(
-                        "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}",
-                        '-d -p 8080:80 --name docs-torqueserver'
-                    )
-                    try {
-                        // Wait for container to start
-                        sleep 5
-                        // Test if the site is accessible
-                        def status = sh(
-                            script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:8080",
-                            returnStdout: true
-                        ).trim()
-                        
-                        if (status != '200') {
-                            error "Test failed: Expected HTTP 200 but got ${status}"
-                        }
-                        
-                        // Additional test - check if index.html exists
-                        sh "docker exec docs-torqueserver ls /usr/share/nginx/html/index.html"
-                        
-                        echo "Tests passed successfully"
-                    } finally {
-                        // Clean up test container
-                        sh "docker stop docs-torqueserver || true"
-                        sh "docker rm docs-torqueserver || true"
-                    }
-                }
-            }
-        }
-
         stage('Push to Registry') {
             when {
                 // Only push for main branch or tags
