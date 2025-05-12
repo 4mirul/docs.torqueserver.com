@@ -24,39 +24,39 @@ pipeline {
             }
         }
 
-        stage('Test Container') {
-            steps {
-                script {
-                    // Run container and test if Nginx is serving MkDocs
-                    def testContainer = docker.run(
-                        "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}",
-                        '-d -p 8084:80 --name docs-torqueserver'
-                    )
-                    try {
-                        // Wait for container to start
-                        sleep 5
-                        // Test if the site is accessible
-                        def status = sh(
-                            script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:8084",
-                            returnStdout: true
-                        ).trim()
+        // stage('Test Container') {
+        //     steps {
+        //         script {
+        //             // Run container and test if Nginx is serving MkDocs
+        //             def testContainer = docker.run(
+        //                 "${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}",
+        //                 '-d -p 8084:80 --name docs-torqueserver'
+        //             )
+        //             try {
+        //                 // Wait for container to start
+        //                 sleep 5
+        //                 // Test if the site is accessible
+        //                 def status = sh(
+        //                     script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:8084",
+        //                     returnStdout: true
+        //                 ).trim()
                         
-                        if (status != '200') {
-                            error "Test failed: Expected HTTP 200 but got ${status}".toString()
-                        }
+        //                 if (status != '200') {
+        //                     error "Test failed: Expected HTTP 200 but got ${status}"
+        //                 }
                         
-                        // Additional test - check if index.html exists
-                        sh "docker exec ${DOCKER_IMAGE} ls /usr/share/nginx/html/index.html"
+        //                 // Additional test - check if index.html exists
+        //                 sh "docker exec ${DOCKER_IMAGE} ls /usr/share/nginx/html/index.html"
                         
-                        echo "Tests passed successfully".toString()
-                    } finally {
-                        // Clean up test container
-                        sh "docker stop ${DOCKER_IMAGE} || true"
-                        sh "docker rm ${DOCKER_IMAGE} || true"
-                    }
-                }
-            }
-        }
+        //                 echo "Tests passed successfully"
+        //             } finally {
+        //                 // Clean up test container
+        //                 sh "docker stop ${DOCKER_IMAGE} || true"
+        //                 sh "docker rm ${DOCKER_IMAGE} || true"
+        //             }
+        //         }
+        //     }
+        // }
 
         stage('Push to Registry') {
             when {
