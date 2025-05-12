@@ -28,12 +28,14 @@ pipeline {
             steps {
                 script {
                     sh """
+                        docker pull ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
                         docker stop ${DOCKER_IMAGE} || true
                         docker rm ${DOCKER_IMAGE} || true
                         docker run -d -p 8084:80 \
                             --name docs-torqueserver \
                             ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG}
                     """
+
                     try {
                         // Wait for container to start
                         sleep 5
